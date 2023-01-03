@@ -1,0 +1,696 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+body{
+    background-color: rgb(26, 25, 25);
+}
+.navbar{
+    width: 100%;
+  
+    
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    height: 70px;
+    width: 80px;
+    
+}
+.pages ul {
+    display: flex;
+    list-style: none;
+   height: 100%;
+
+}
+
+.pages ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    
+}
+.pages ul li:hover{
+    cursor: pointer;
+    background-color: rgb(93, 87, 87);
+}
+.main{
+    display: flex;
+}
+.intro{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 60px;
+}
+.intro h3{
+    color: tomato;
+    padding-top: 90px;
+}
+.intro h1{
+    color: white;
+    padding-top:10px;
+}
+.intro p{
+    padding-top: 10px;
+    color: white;
+}
+.intro button{
+    height: 45px;
+    width: 140px;
+    background-color: tomato;
+    border: 2px solid tomato;
+    margin-top: 30px;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    
+}
+.intro button:hover{
+    cursor: pointer;
+    background-color: rgb(40, 38, 38) ;
+    border: 2px solid tomato;
+    border-radius: 3px;
+    color: tomato ;
+    
+
+}
+
+
+.cards{
+    width: 100%;
+   
+    display: flex;
+}
+.grey{
+    background-color:rgb(48, 45, 45);
+    width: 50%;
+    display: flex;
+}
+.crd{
+    background-color: rgb(64, 60, 60);
+    width: 350px;
+    height: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   margin-top: 30px;
+   
+   
+}
+
+.crd img{
+    height: 60px;
+    width: 70px;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+.crd h2{
+    color: white;
+    padding-top: 10px;
+    padding-left: 80px;
+}
+.p1{
+    padding-top: 10px;
+}
+.crd p{
+    color: white;
+    padding-left: 80px;
+   
+}
+.crd a{
+  position: relative;
+  top: 30px;
+    padding-left: 80px;
+    color: tomato;
+    text-decoration: none;
+    font-weight: 700;
+}
+.crd1{
+    position: relative;
+    left: 140px;
+}
+.crd2{
+    position: relative;
+    left: 190px;
+}
+.crd3{
+    position: relative;
+    left: 225px;
+}
+.cards2{
+    width: 100%;
+    
+    display: flex;
+}
+.grey2{
+    border: 10px solid rgb(48, 45, 45);;
+    background-color: rgb(48, 45, 45);
+    width: 48%;
+    padding-bottom: 80px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.years{
+    padding-left: 220px;
+padding-right: 100px;
+}
+.years h1{
+    color: tomato;
+    font-size: 80px;
+    font-weight: 800;
+}
+.years h3{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    right: 10px;
+    padding-right: 0px;    
+}
+.y{
+    display: flex;
+}
+.y h3{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    right: 50px;
+    margin-left: 5px;
+}
+.clients{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.cl{
+    margin-top: 20px;
+    height: 150px;
+    width: 350px;
+    background-color:rgb(64, 60, 60);
+    position: relative;
+    right: 40px;
+    
+}
+.cl h2{
+    font-size: 35px;
+    padding-left: 150px;
+    padding-top: 30px;
+    font-weight: 800;
+    color: tomato;
+}
+.cl p{
+    color: rgb(179, 172, 172);
+    padding-left: 150px;
+}
+.proj{
+    height: 150px;
+    width: 350px;
+    background-color: rgb(64, 60, 60);
+    margin-top: 20px;
+    position: relative;
+    right: 40px;
+}
+
+.proj h2{
+    font-size: 35px;
+    padding-left: 130px;
+    padding-top: 30px;
+    font-weight: 800;
+    color: tomato;
+}
+.proj p{
+    color: rgb(179, 172, 172);
+    padding-left: 110px;
+}
+.cl2{
+    padding-left: 55px;
+}
+.nav2{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 30px;
+}
+.featured h1{
+    font-weight: 800;
+    color: white;
+    font-size: 35px;
+}
+.featured p{
+    padding-top: 10px;
+    color:rgb(139, 135, 135);
+}
+.btn button{
+    height: 50px;
+    width: 140px;
+    background-color: tomato;
+    border: 2px solid tomato;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+.btn button:hover{
+    cursor: pointer;
+    border: 2px solid tomato;
+    background-color: rgb(26, 25, 25) ;
+}
+.imgs{
+    padding-top: 40px;
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: space-between;
+}
+.img1{
+    background-color: rgb(75, 71, 71);
+    padding-bottom: 70px;
+    width: 550px;
+}
+.img2{
+    background-color: rgb(75, 71, 71);
+    padding-bottom: 70px;
+    width: 550px;
+    
+}
+.img1 img{
+    height: 350px;
+   width: 450px;
+   padding-top: 70px;
+   padding-left: 50px;
+}
+.img2 img{
+    height: 350px;
+    width: 450px;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+.heads{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+.vt h2{
+    color: white;
+}
+.vt a{
+    text-decoration: none;
+    color: tomato;
+   position: relative;
+   top: 10px;
+}
+.food{
+    padding-left: 465px;
+}
+.food h2{
+    color: white;
+}
+.food a{
+    text-decoration: none;
+    color: tomato;
+    position: relative;
+    top: 10px;
+    
+}
+.work{
+    
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 80%;
+    background-color: rgb(70, 67, 67);
+ 
+    
+}
+.work2{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn2 button{
+    height: 45px;
+    width: 150px;
+    background-color: tomato;
+    border: 2px solid tomato;
+    margin-top: 140px;
+    color: white;
+    font-weight: 700;
+}
+.btn2 button:hover{
+    cursor: pointer;
+    background-color: rgb(70, 67, 67);
+    border: 2px solid tomato;
+}
+.txt{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.txt h2{
+
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+.txt p{
+    padding-top: 10px;
+    color: rgb(147, 140, 140);
+    
+}
+.h1{
+    color: white;
+    padding-top: 60px;
+}
+.p2{
+    padding-bottom: 70px;
+}
+.pages2{
+    margin: 0 auto;
+    width: 80%;
+}
+.pages2 ul{
+    padding-top: 80px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.pages2 ul li{
+    margin-left: 30px;
+}
+.pages2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.end{
+   width: 100%;
+   background-color: rgb(48, 45, 45);
+}
+.footer{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: space-between;
+}
+.log img{
+    height: 70px;
+    width: 80px;
+}
+.icns ul{
+    display: flex;
+    list-style: none;
+}
+.icns ul li {
+    margin-left: 10px;
+    padding-top: 15px;
+}
+.icns ul li img{
+    height: 40px;
+    width: 50px;
+
+}
+.icns ul li img:hover{
+    cursor: pointer;
+}
+.cr{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.cr img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    right: 10px;
+}
+.cr h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* media qurries */
+@media (min-width: 320px) and (max-width:425px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .pages ul {
+        flex-direction: column;
+        
+    }
+    .pages ul li {
+        margin-top: 20px;
+    }
+    .main{
+        padding-top: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro{
+        padding-left: 40px;
+    }
+    .intro h1,h3, p{
+     
+        padding-top: 10;
+    }
+    .intro button{
+        position: relative;
+        left: 0px;
+        top: 10px;
+        width: 150px;
+        
+    }
+    
+
+    .intro{
+        position: relative;
+        bottom: 70PX;
+    
+    }
+    
+    .cards{
+      
+        flex-direction: column;
+    }
+    .grey{
+        padding-left: 0px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .crd{
+        width: 100%;
+        left: 0px;
+    }
+
+    .crd img{
+        position: relative;
+        left: 90px;
+    }
+    .crd h2{
+        margin: 0 auto;
+        width: 35%;
+        color: white;
+        
+        padding-left: 0px;
+
+    }
+    .crd p{
+        color: white;
+        padding-left: 0px;
+        
+    }
+    .crd a{
+        position: relative;
+        left: 70px;
+    }
+
+    .crd3{
+        left: 0px;
+    }
+    .crd p{
+        text-align: center;
+    }
+    .bdcolor{
+        width: 100%;
+        background-color:rgb(48, 45, 45);
+    }
+    .grey2{
+        flex-direction: column;
+        width: 100%;
+        border: 0px;
+        padding-bottom: 20px;
+    }
+    .years{
+        padding-left: 0px;
+    }
+    .years h1{
+        padding-left: 140px;
+    }
+    .h4{
+        
+        padding-left: 130px;
+    }
+  
+    .cl{
+
+        width: 100%;
+        right: 0px;
+    
+    }
+   
+    .cl h2{
+        padding-left: 170px;
+    }
+    .cl p{
+        padding-left: 170px;
+    }
+    .cl2{
+        padding-left: 0px;
+    }
+    .proj{
+        width: 100%;
+        right: 0px;
+    }
+    .proj h2{
+        padding-left: 160px;
+    }
+    .proj p{
+        padding-left: 130px;
+    }
+    .clients{
+        flex-direction: column;
+    }
+
+    .p1{
+        padding-top: 30px;
+    }
+   
+    .nav2{
+        width: 100%;
+        flex-direction: column;
+    }
+    .featured p{
+        padding-left: 0px;
+        text-align: center;
+    }
+    .featured h1{
+        padding-left: 120px;
+        font-weight: 600;
+    }
+    .btn button{
+        position: relative;
+        left: 140px;
+        top: 30px;
+    }
+    .imgs{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .img1{
+        width: 100%;
+        height: 250px;
+    }
+    .img1 img{
+        width: 90%;
+        padding-left: 15px;
+        padding-top: 20px;
+        height: 280px;
+
+    }
+    .img2{
+        height: 250px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .img2 img{
+        width: 90%;
+        padding-left: 15px;
+        padding-top: 20px;
+        height: 280px;
+    }
+    .heads{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .food{
+        padding-left: 100px;
+        padding-top: 20px;
+    }
+    .vt{
+       
+    }
+    .vt a {
+        top: 0px;
+
+    }
+    .food{
+      padding-left: 0px;
+    }
+
+    .food a{
+        top: 0px;
+    }
+    .work{
+        width: 100%;
+    }
+
+    .work2{
+        flex-direction: column;
+        width: 100%;
+    }
+    .txt h2{
+        font-size: 23px;
+        
+        text-align: center;
+    }
+    .h1{
+        padding-top: 30px;
+    }
+    .txt p{
+        padding-top: 20px;
+       text-align: center;
+    }
+    .btn2 button{
+        margin-top: 0px;
+        position: relative;
+        left: 135px;
+    }
+        .work{
+            padding-bottom: 30px;
+    }
+    .pages2{
+        display: none;
+        width: 100%;
+    }
+   .footer{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+   }
+   .girl{
+    width: 100%;
+   }
+   .girl img{
+    width: 100%;
+   }
+
+
+
+}
+
+
+
+
+
+
+
